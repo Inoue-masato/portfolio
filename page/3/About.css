@@ -79,6 +79,7 @@ section {
 
 
   footer {
+    margin-block-start: 0em;
     position: absolute;
     width: 100%;
     text-align: center;
