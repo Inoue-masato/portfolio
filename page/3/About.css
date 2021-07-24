@@ -42,20 +42,15 @@ body{
   font-size: 80px;
 }
 
-footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(228, 228, 228);
-    bottom: 0;
-}
-
 
 main {
     display: flex; /* この要素の内部の表示をフレキシブルに変更可能とする */
     justify-content: center; /* 内部要素を中央揃え */
     align-items: center; /* 内部要素を中央揃え */
     min-height: 100vh; /* 最低高さを画面の高さに揃える(最低限、画面の高さ分は領域が確保される) */
+    position: relative;
+    box-sizing: border-box;
+  
   }
   
   /* モバイルでの表示時にレイアウトを変更する */
@@ -162,3 +157,10 @@ main {
     animation: rotation 8s infinite linear;
   }
 
+  footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    bottom: 0;
+}
