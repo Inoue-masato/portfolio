@@ -137,7 +137,7 @@ main {
   /* class="social"の中のliの中のa */
 .social li a {
     text-decoration: none;  /* リンクテキストの装飾をなくす */
-    color: #fff;  /* 文字色変更(任意の文字色に変えて良い) */
+    color: black;  /* 文字色変更(任意の文字色に変えて良い) */
     transition: 1s color; /* 文字色が変化する場合、１秒かけて変化させる定義 */
   }
 /* class="social"の中のliの中のaにマウスカーソルが乗った時 */
