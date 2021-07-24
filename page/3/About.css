@@ -83,5 +83,5 @@ section {
     width: 100%;
     text-align: center;
     background-color: rgb(228, 228, 228);
-    bottom: 0;
+    bottom: -1000px;
 }
