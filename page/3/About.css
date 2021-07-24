@@ -42,6 +42,14 @@ body{
   font-size: 80px;
 }
 
+
+
+main{
+  box-sizing: border-box;
+  margin: auto;
+  height: 1000px;
+
+}
 section:nth-child(2n + 1) {
   background-color: var(--primary-050);
   color: var(--secondary-050);
@@ -68,9 +76,6 @@ section {
   height: 100%;
 
 }
-
-
-
 
 
   footer {
