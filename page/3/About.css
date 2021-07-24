@@ -1,6 +1,6 @@
 
 body{
-    font-family: "MS 明朝",serif;
+    font-family: "arial unicode ms",serif;
     background-image: url(../../images.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -10,7 +10,7 @@ body{
     font-family: 'Sofia', cursive;
     width: 100%; 
     height: 120px; 
-    background: rgba(255, 255, 255, 0.651);  
+    background: rgb(255, 255, 255);  
     padding: 20px 50px; 
     box-sizing: border-box; 
     position: fixed; 
@@ -36,53 +36,103 @@ body{
 .hero-text {
   margin-top: 200px;
   width: 100%; 
-  height: 100px;
+  height: 200x;
   text-align: center;
   font-family: 'Sofia', cursive;
   font-size: 80px;
 }
 
-
-
-main{
-  box-sizing: border-box;
-  margin: auto;
-  height: 1000px;
-
-}
-section:nth-child(2n + 1) {
-  background-color: var(--primary-050);
-  color: var(--secondary-050);
-}
-
 section {
-  height: 100vh;
+  height: 80vh;
   display: flex;
+  font-size: 5rem;
   align-items: center;
   justify-content: center;
-  font-size: 5rem;
 }
 
 #sec1 {
-  background-image: url(haikei.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-color: rosybrown;
+  font-size: 30px;
+
 } 
-
-
-#sec3 iframe{
-  width: 100%;
-  height: 100%;
-
+#sec1 h1{
+  text-align: center;
+  font-size:  60px;
+  margin-bottom: 50;
+}
+#sec1 dl{
+  font-size: 30px;
+  line-height: 1.8em;
+}
+#sec1 dd{
+  text-align: left;
+  margin-left: 150px;
 }
 
 
-  footer {
-    margin-block-start: 0em;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(228, 228, 228);
-    bottom: -1000px;
+
+#sec2 {
+  background-color: rgb(156, 222, 248);
+  font-size: 30px;
+} 
+#sec2 h1{
+  text-align: center;
+  font-size:  60px;
+  margin-bottom: 50;
+}
+#sec2 dl{
+  font-size: 30px;
+  line-height: 1.8em;
+}
+#sec2 dd{
+  text-align: left;
+  margin-left: 200px;
+}
+
+#sec3 {
+  background-color: blue;
+  font-size: 30px;
+}
+#sec3 h1{
+  text-align: center;
+  font-size:  60px;
+  margin-bottom: 50;
+}
+#sec3 dl{
+  font-size: 30px;
+  line-height: 1.8em;
+}
+#sec3 dd{
+  text-align: left;
+  margin-left: 100px;
+}
+
+
+main dt{
+  float: left;
+}
+
+
+
+dl{
+  text-align: center;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#sec4 {
+  background-color: rgb(168, 255, 190);
+
+}
+
+footer {
+  margin-block-start: 0em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  bottom: -2500px;
 }
