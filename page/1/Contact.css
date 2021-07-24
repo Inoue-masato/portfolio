@@ -1,0 +1,34 @@
+
+body{
+    font-family: "MS 明朝",serif;
+    background-image: url(images.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.global-nav {
+    font-family: 'Sofia', cursive;
+    width: 100%; 
+    height: 120px; 
+    background: rgba(255, 255, 255, 0.651);  
+    padding: 20px 50px; 
+    box-sizing: border-box; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.global-nav h1{
+    font-size: 80px;    
+}
+.global-nav li{
+    line-height: 60px;
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+}
