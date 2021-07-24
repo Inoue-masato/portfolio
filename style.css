@@ -46,10 +46,9 @@ footer {
     width: 100%;
     text-align: center;
     background-color: rgb(228, 228, 228);
-    bottom: -100%;
+    bottom: -50%;
 }
 
-  
 
 main {
     display: flex; /* この要素の内部の表示をフレキシブルに変更可能とする */
