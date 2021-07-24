@@ -109,7 +109,7 @@ main {
   .profile-text {
     max-width: 600px; /* 最大幅を設定 */
     padding: 2rem; /* 基準文字サイズの2文字分内側に余白を設定 */
-    color: #fff; /* 文字色を設定(任意の文字色に変えて良い) */
+    color: black; /* 文字色を設定(任意の文字色に変えて良い) */
   }
   h1 {
     font-size: 4rem; /* 文字サイズを基準サイズの400%とする */
