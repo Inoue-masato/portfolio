@@ -2,7 +2,7 @@
     font-family: 'Sofia', cursive;
     width: 100%; 
     height: 120px; 
-    background: rgba(255, 255, 255, 0.651);  
+    background: rgba(255, 255, 255, 1);  
     padding: 20px 50px; 
     box-sizing: border-box; 
     position: fixed; 
@@ -25,12 +25,32 @@
     text-decoration: none;
     font-weight: bold;
 }
+.global-nav li img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.hero-text {
+    margin-top: 200px;
+    width: 100%; 
+    height: 100px;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 80px;
+}
+
 body{
     font-family: "MS 明朝",serif;
     background-image: url(../../../../images.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    align-items: center;
+    text-align: center;
 }
 .hero-text {
     margin-top: 150px;
@@ -40,12 +60,30 @@ body{
     font-family: 'Sofia', cursive;
     font-size: 80px;
 }
+
+.main{
+    margin: 0%;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
 .gazou {
     margin: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 80%;
-    height: 80%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 80vh;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.honbun{
+    background-color: rgba(255, 255, 255, 0.651);
+    text-align: left;
+    border-radius: 20px;
 
 }
 footer {
@@ -53,5 +91,5 @@ footer {
     width: 100%;
     text-align: center;
     background-color: rgb(228, 228, 228);
-    bottom: -100%;
+    bottom: -50%;
 }
