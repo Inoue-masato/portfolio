@@ -53,6 +53,42 @@ body{
 }
 
 
+@media screen and (max-width: 800px) {
+
+    .global-nav {
+        height: 60px; 
+        padding: 10px 20px; 
+    }
+    .global-nav h1{
+        font-size: 40px;    
+    }
+    .global-nav li{
+        line-height: 20px;
+        width: 50px;
+        font-size: 15px;
+    }
+    .global-nav li img{
+        width: 30px;
+        height: 30px;
+    }
+    .hero-text {
+        margin-top: 80px;
+        font-size: 60px;
+        height: 50px;
+    }
+    footer {
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .global-nav li{
+        width: 30px;
+        font-size: 10px;
+    }
+}
+
+
+
 main{
     justify-content: center;
     text-align: center;

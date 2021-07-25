@@ -41,13 +41,45 @@ body{
   border-radius: 50%;
   vertical-align: middle;
 }
-
 footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(228, 228, 228);
-    bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  bottom: -10px;
+}
+@media screen and (max-width: 800px) {
+
+  .global-nav {
+      height: 60px; 
+      padding: 10px 20px; 
+  }
+  .global-nav h1{
+      font-size: 40px;    
+  }
+  .global-nav li{
+      line-height: 20px;
+      width: 50px;
+      font-size: 15px;
+  }
+  .global-nav li img{
+      width: 30px;
+      height: 30px;
+  }
+  .hero-text {
+      margin-top: 80px;
+      font-size: 60px;
+      height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .global-nav li{
+      width: 30px;
+      font-size: 10px;
+  }
+  .footer {
+    bottom: -400px;
+  }
 }
 
 
@@ -75,8 +107,8 @@ main {
   /* モバイルでの表示時にサイズを調整する */
   @media screen and (max-width: 896px) {
     .profile-photo img {
-      width: 70vw; /* 横幅の設定を画面横サイズの70% */
-      height: 70vw; /* 高さの設定を画面横サイズの70% */
+      width: 50vw; /* 横幅の設定を画面横サイズの70% */
+      height: 50vw; /* 高さの設定を画面横サイズの70% */
     }
   }
   .profile-text {
@@ -92,7 +124,7 @@ main {
   /* モバイルでの表示時にレイアウトを変更する */
   @media screen and (max-width: 896px) {
     h1 {
-      font-size: 13.5vw; /* 文字サイズを画面サイズの13.5％幅とする */
+      font-size: 40px; /* 文字サイズを画面サイズの13.5％幅とする */
       text-align: center; /* 文字の配置をセンタリングする */
     }
   }
